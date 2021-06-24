@@ -41,6 +41,16 @@ header {
     
 }
 
+.Logo {
+    width: 180px;
+    height: 60px;
+    padding-left: 75px ;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    object-position: center;
+}
+
 h1 {
     color: #68d4bd;
     font-size: 35px;      
@@ -87,7 +97,6 @@ section{
     margin: 30px 30px;
     width: 300px;   
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-
     display: inline-block;
 }
 
@@ -97,8 +106,6 @@ section{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 180px;
-    
-    
     position: relative;
     
 }
@@ -109,8 +116,6 @@ section{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 180px;
-    
-    
     position: relative;
 }
 
@@ -120,8 +125,24 @@ section{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 180px;
-    
+    position: relative;
+}
 
+.card-mates {
+    background-image: url("../img/MatesImg.jpg");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 180px;
+    position: relative;
+}
+
+.card-termos {
+    background-image: url("../img/Termos.jpg");
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 180px;
     position: relative;
 }
 
@@ -150,6 +171,17 @@ p {
     padding: 0px 20px;
     text-align: left;
     
+}
+
+.metodosPago{
+    background: #68d4bd;
+    font-size: 14px;
+}
+
+.pagos {
+    width: 200px;
+    height: 60px;
+    padding-left: 10%;
 }
 
 footer {

@@ -41,6 +41,16 @@ header {
     
 }
 
+.Logo {
+    width: 180px;
+    height: 60px;
+    padding-left: 75px ;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    object-position: center;
+}
+
 h1 {
     color: #68d4bd;
     font-size: 35px;      
