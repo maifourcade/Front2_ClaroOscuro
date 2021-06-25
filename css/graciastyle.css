@@ -86,13 +86,12 @@ h1 {
 section{
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-
-h3 {
+.gracias {
     color: #68d4bd;
     position: relative;
     text-align: center;
@@ -106,6 +105,8 @@ p {
     padding: 0px 20px;
     text-align: left;
 }
+
+
 
 footer {
     background: #68d4bd;

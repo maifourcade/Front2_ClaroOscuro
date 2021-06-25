@@ -119,7 +119,9 @@ footer {
 
 }
 
-
+.video{
+    padding-top: 5%;
+}
 
 .card:hover {
     transform: scale(1.10);
