@@ -90,57 +90,28 @@ section{
 
 .card {
     background-color: #fafc7a;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-radius: 25px;
     margin: 30px 30px;
     width: 300px;   
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     display: inline-block;
 }
 
-.card-yerba {
-    background-image: url("../img/yerba.jpg");
-    background-size: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 180px;
-    position: relative;
-    
-}
-
-.card-yuyos {
-    background-image: url("../img/yuyos.jpg");
-    background-size: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 180px;
-    position: relative;
-}
-
-.card-pasteleria {
-    background-image: url("../img/pasteleria.jpg");
-    background-size: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 180px;
-    position: relative;
-}
-
 .card-mates {
-    background-image: url("../img/MatesImg.jpg");
+    background-image: url("../img/MateTienda.jpg");
     background-size: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 180px;
+    height: 300px;
     position: relative;
 }
 
 .card-termos {
-    background-image: url("../img/Termos.jpg");
+    background-image: url("../img/TermoTienda.jpg");
     background-size: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 180px;
+    height: 300px;
     position: relative;
 }
 
@@ -158,19 +129,12 @@ section{
 }
 
 h3 {
-    color: #1b852d;
     position: relative;
     text-align: center;
     font-size: 25px;
     font-family: Inter;
     font-weight: 800;
     padding-top: 30px;
-}
-
-p {
-    padding: 0px 20px;
-    text-align: left;
-    
 }
 
 .metodosPago{
