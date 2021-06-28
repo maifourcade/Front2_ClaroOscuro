@@ -189,6 +189,27 @@ p {
     padding-left: 10%;
 }
 
+.carta{
+    padding-left: 42%;
+}
+.button {
+    background-color: #1b852d;
+    border-radius: 50%;
+    bottom: 50%;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+    right: 50px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 999;
+    text-decoration: none;
+    transition: 0.5s;
+} 
+
 footer {
     background: lightskyblue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
