@@ -18,12 +18,15 @@ body{
     height: 30px;
     width: 100%;
     padding-left: 10px;
-    padding-top: 5px; 
+    padding-top: 2px; 
     font-family: Roboto;
-    z-index: 2;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
-
+.idioma{
+    padding-right: 5px;
+}
 
 header {
     background: white;

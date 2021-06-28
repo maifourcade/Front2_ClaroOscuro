@@ -13,15 +13,22 @@ body{
 }
 
 .discount {
-    background-color:  #68d4bd;
+    background-color: lightskyblue ;
     box-sizing: border-box;
     height: 30px;
     width: 100%;
     padding-left: 10px;
-    padding-top: 5px; 
+    padding-top: 2px; 
     font-family: Roboto;
-    z-index: 2;
+    display: inline-flex;
+    justify-content: space-between;
 }
+
+.idioma{
+    padding-right: 5px;
+}
+
+
 
 header {
     background: white;
@@ -48,10 +55,11 @@ header {
     object-position: center;
 }
 
-h1 {
-    color: #68d4bd;
-    font-size: 35px;      
-    padding-left: 100px ;
+.Bandera {
+    width: 100px;
+    height: 60px;
+    padding-left: 250px;
+    padding-top: 0.5%;
     display: flex;
     position: absolute;
     text-align: center;
@@ -59,15 +67,15 @@ h1 {
 }
 
 .navigator {
-    background-color: black;
+    background-color: lightskyblue;
     text-align: right;
     height: 20px;
     padding: 10px 10px;
 }
 
 .navigator a{
-    background-color: black;
-    color:white;
+    background-color:  lightskyblue;
+    color:black;
     text-align: right;
     padding: 0px 10px;
     height: 20px;
@@ -76,40 +84,65 @@ h1 {
 
 
 .navigator a:hover {
-    background-color: #5f686d;}
-
+    background-color: #5f686d;
+}
 
 
 section{
     margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
+.Staff{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cocinero {
+    width: 350px;
+    height: 250px;
+}
+
+.mozos {
+    width: 250px;
+    height: 350px;
+}
+
+.card {
+    background-color: #fafc7a;
+    border-radius: 25px;
+    margin-top: 30px;
+    width: 400px;   
+    height: max-content;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: inline-block;
+}
+
+.card-text {
+    color: #1b852d;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+}
 
 
 h3 {
-    color: #68d4bd;
+    color: #1b852d;
     position: relative;
     text-align: center;
     font-size: 40px;
     font-family: Inter;
     font-weight: 800;
-    padding-top: 30px;
 }
 
-a {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 800;
-    padding-top: 30px;
+p {
+    padding: 0px 20px;
+    text-align: left;
 }
+
 
 footer {
-    background: #68d4bd;
+    background:   lightskyblue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 50px;
     line-height: 50px;
@@ -117,14 +150,13 @@ footer {
 }
 
 .terms {
-    color: white;
+    color: black;
     font-size: 14px;
     text-align: center;
+
+
 }
 
-.card:hover {
-    transform: scale(1.10);
-}
 
 @media screen and (max-width:768px) {
     footer {
